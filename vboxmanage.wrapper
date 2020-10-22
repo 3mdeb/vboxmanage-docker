@@ -4,4 +4,4 @@ if [ ! -c /dev/vboxdrv ]; then
   mknod /dev/vboxdrv c 10 58
 fi
 
-/usr/bin/vboxmanage $@
+/usr/bin/vboxmanage "$@"
